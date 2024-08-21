@@ -19,7 +19,7 @@ You can enable or disable the MAC policer using the following command:
 mac_policer enable-disable
 mac_policer enable-disable disable
 mac_policer add mac b4de3113cdeb limit 100000
-`mac_policer add mac <MAC_ADDRESS> limit <LIMIT_IN_BYTES_PER_SECOND>`
+mac_policer add mac <MAC_ADDRESS> limit <LIMIT_IN_BYTES_PER_SECOND>
 ```
 
 
