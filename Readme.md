@@ -25,7 +25,7 @@ mac_policer add mac <MAC_ADDRESS> limit <LIMIT_IN_BYTES_PER_SECOND>
 
 ## Caveats
 -   **Not Production Ready:** This project is still in the development phase and is not yet suitable for production environments.
--   **Packet Handoff System:** The packet handoff between workers has not been implemented yet, so depends of the worker count, limits are not sharp.
+-   **Packet Handoff System:** The packet handoff between workers has not been implemented yet, so depending on the worker count, the limits may not be precise.
 -   **MAC Rule Deletion:** Currently, there is no functionality to remove a MAC rule once it has been added.
 
 # Credits
